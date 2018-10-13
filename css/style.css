@@ -1,0 +1,108 @@
+header {
+  background: #fff; }
+  header h2 {
+    text-shadow: 2px 2px 2px; }
+    header h2:first-letter {
+      color: #fcac45; }
+
+.dropdown-menu {
+  width: 90%; }
+
+.block-welcome {
+  height: 500px;
+  background-image: url("../img/desk-3139127_1920.jpg"); }
+
+.block-blockquote {
+  background: #E6E6E6;
+  height: 100%; }
+  .block-blockquote input {
+    width: 70%; }
+  .block-blockquote .blockquote {
+    font-size: 15px;
+    padding: 10px 10px; }
+
+.news h2 {
+  color: #fcac45; }
+
+.left-news {
+  border: 1px solid silver;
+  border-radius: 5%; }
+  .left-news li {
+    padding-top: 10px;
+    line-height: 1.5; }
+  .left-news a {
+    font-size: 15px; }
+
+.books .card {
+  height: 30rem;
+  overflow: scroll; }
+
+@media screen and (max-width: 992px) {
+  .books .card {
+    margin-top: 10px; }
+
+  .short-media .embed-responsive {
+    margin-top: 10px; } }
+.sidebar-fixed {
+  height: 1000px;
+  width: 270px;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  z-index: 1050;
+  background: #fff;
+  padding: 1.5rem;
+  padding-top: 0; }
+  .sidebar-fixed .btn-close {
+    color: blue;
+    font-size: 35px; }
+  .sidebar-fixed .list-group .active {
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    background: blue; }
+  .sidebar-fixed .logo-wrapper {
+    padding: 1.5rem; }
+
+@media (min-width: 1200px) {
+  .side-navbar, main {
+    padding-left: 270px; }
+
+  .button-collapse {
+    display: none; }
+
+  .btn-close {
+    display: none; } }
+@media (max-width: 1199.98px) {
+  .sidebar-fixed {
+    display: none; }
+
+  .button-collapse {
+    display: block;
+    z-index: 1050;
+    margin-top: 80px;
+    margin-left: 20px; }
+
+  .btn-close {
+    display: block; }
+
+  main .table-responsive {
+    width: 100%;
+    margin: 0 auto; } }
+main h3 {
+  text-shadow: 2px 2px 2px; }
+main .table-responsive {
+  width: 80%;
+  margin: 0 auto; }
+
+canvas {
+  max-width: 800px; }
+
+.agres .card {
+  height: 30rem;
+  overflow: scroll; }
+
+@media screen and (max-width: 992px) {
+  .agres .card {
+    margin-top: 10px; } }
+
+/*# sourceMappingURL=style.css.map */

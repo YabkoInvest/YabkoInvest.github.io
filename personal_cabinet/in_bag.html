@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="../css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="../css/style.css" rel="stylesheet">
+</head>
+
+<body class="grey lighten-3">
+      
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
+        <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" id="icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="side-navbar navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link waves-effect" href="../index.html">Головна</a></li>
+            <li class="nav-item"><a class="nav-link waves-effect" href="../offers.html">Ресурсотека</a></li>
+            <li class="nav-item"><a class="nav-link waves-effect" href="personal_cabinet/main.html">Особистий кабінет</a></li>
+          </ul>
+      	</div>
+	      <ul class="navbar-nav nav-flex-icons" id="social-i">
+	      	<li class="nav-item mr-2">
+	      		<a href="#" class="nav-link border border-light rounded waves-effect blue-gradient">
+	      			<i class="fa fa-facebook"></i>
+	      		</a>
+	      	</li>
+	      	<li class="nav-item mr-2">
+	      		<a href="#" class="nav-link border border-light rounded waves-effect blue-gradient">
+	      			<i class="fa fa-instagram"></i>
+	      		</a>
+	      	</li>
+	      	<li class="nav-item mr-2">
+	      		<a href="#" class="nav-link border border-light rounded waves-effect blue-gradient">
+	      			<i class="fa fa-youtube"></i>
+	      		</a>
+	      	</li>
+	      </ul>
+      </div>
+      </nav>
+
+    <div class="sidebar-fixed position-fixed" id="sidebar">
+    	<a href="#" class="btn-close text-right" id="close">&times;</a>
+      <a href="#" class="logo-wrapper waves-effect">
+      <h2 class="text-center text-uppercase">Ябко-<span>Інвест</span> <img src="../img/apple.jpg" alt="Apple" width="40"></h2>    
+      </a>
+	      <div class="list-group list-group-flush">
+	        <a href="main.html" class="list-group-item waves-effect">
+	          <i class="fa fa-home mr-3" aria-hidden="true"></i> Головна
+	        </a>
+	        <a href="#" class="list-group-item waves-effect dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          <i class="fa fa-line-chart mr-3"></i> Інвестиції
+	        </a>
+	        <div class="dropdown-menu text-center">
+	        	<a class="dropdown-item waves-effect" href="agres.html"> 
+	        		<i class="fa fa-space-shuttle mr-3"></i> Агресивні
+	        	</a>
+	        	<div class="dropdown-divider"></div>
+	        	<a class="dropdown-item waves-effect" href="over_agres.html">
+	        		<i class="fa fa-motorcycle mr-3"></i> НадАгресивні
+	        	</a>
+	        </div>
+	        <a href="fin_freedom.html" class="list-group-item waves-effect">
+	          <i class="fa fa-trophy mr-3"></i> ФС
+	        </a>
+	        <a href="in_bag.html" class="list-group-item active waves-effect">
+	          <i class="fa fa-bar-chart mr-3"></i> Інвест-портфель
+	        </a>
+	        <a href="charity.html" class="list-group-item waves-effect">
+	          <i class="fa fa-heart mr-3"></i> Благочинність
+	        </a>
+	        <a href="offer.html" class="list-group-item waves-effect">
+	          <i class="fa fa-graduation-cap mr-3"></i> Пропозиції
+	        </a>
+	        <a href="settings.html" class="list-group-item waves-effect">
+	          <i class="fa fa-cog mr-3"></i> Налаштування
+	        </a>
+	      </div>
+	      <div class="sidenav-bg rgba-blue-strong"></div>
+    </div>  
+    </header>
+    <a href="#" data-activates="slide-out" class="btn btn-primary p-3 button-collapse sticky-top" id="button-collapse"><i class="fa fa-bars"></i></a>
+
+    <main class="pt-5 max-lg-5">
+    	<h3 class="text-center text-info"><strong>Инвест-портфель</strong></h3>
+    	<div class="image-main text-center mt-4 mb-4">
+    		<img src="https://img4.goodfon.ru/original/1366x768/e/d7/businessman-wallet-suit-money.jpg" class="img-fluid" alt="Invest" width="60%">
+    	</div>
+    	<div class="capital container md-form text-center">
+    		<h5 class="text-center">Ваш капитал - 5000$</h5>
+    		<input type="number" class="form-control mb-4" placeholder="Обновить капитал">
+    		<button class="btn aqua-gradient btn-rounded">Обновить</button>
+    	</div>
+
+    	<div class="table-responsive mt-5">
+				<table class="table table-hover z-depth-1-half">
+					<thead class="blue-gradient">
+						<tr>
+							<th scope="col">Инструмент</th>
+							<th scope="col">Сумма, USD</th>
+							<th scope="col">Валюта</th>
+							<th scope="col">Риск</th>
+							<th scope="col">Страна</th>
+							<th scope="col">Доля</th>
+							<th scope="col">Доходность</th>
+							<th scope="col">5 лет</th>
+							<th scope="col">10 лет</th>
+							<th scope="col">15 лет</th>
+							<th>Удалить</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><input type="number" class="form-control"></td>
+							<td><input type="number" class="form-control"></td>
+							<td><input type="number" class="form-control"></td>
+							<td><input type="number" class="form-control"></td>
+							<td><input type="number" class="form-control"></td>
+							<td><input type="number" class="form-control"></td>
+							<td><input type="number" class="form-control"></td>
+							<td><input type="number" class="form-control"></td>
+							<td><input type="number" class="form-control"></td>
+							<td><input type="number" class="form-control"></td>
+						</tr>
+					</tbody>
+				</table>
+				<h5>Неиспользованный капитал - 800$</h5>	
+			</div>
+			<div class="chart mt-4 container">
+				<canvas id="doughnutChart"></canvas>
+			</div>	
+			<div class="new-tool mt-5 container">
+				<h5 class="text-center text-danger mb-4"><strong>Новый инструмент</strong></h5>
+				<form>
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Введите ваш инструмент">
+							</div>
+							<div class="form-group">
+								<input type="number" class="form-control" placeholder="Сумму в инструмент">
+							</div>
+							<div class="form-group">
+								<input type="number" class="form-control" placeholder="Годовая прибыль">
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="form-group">
+								<select class="form-control">
+									<option disabled selected>Выберите валюту</option>
+									<option value="Местная валюта">Местная валюта</option>
+									<option value="USD">USD</option>
+									<option value="EUR">EUR</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<select class="form-control">
+									<option disabled selected>Выберите риск</option>
+									<option value="Консервативный">Консервативный</option>
+									<option value="Умереный">Умереный</option>
+									<option value="Агрессивный">Агрессивный</option>
+									<option value="СверхАгресивный">СверхАгресивный</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<select class="form-control">
+									<option disabled selected>Выберите страну</option>
+									<option value="Страна проживания">Проживания</option>
+									<option value="Зарубеж">Зарубеж</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="button-enter text-center">
+						<button class="btn blue-gradient btn-rounded text-center" type="submit">Добавить</button>
+					</div>
+				</form>
+				<div class="chart mt-5 container">
+					<h5><strong>Динамика роста капитала</strong></h5>
+					<canvas id="lineChart" class="z-depth-1-half"></canvas>
+				</div>
+				
+				<div class="table-group">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="table-responsive mt-5">
+							<table class="table table-hover z-depth-1-half">
+								<thead class="blue-gradient">
+									<tr>
+										<th scope="col">Рыночный риск</th>
+										<th scope="col">Доля</th>
+										<th scope="col">Сумма, USD</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th>Консервативный</th>
+										<td><input type="number" class="form-control"></td>
+										<td><input type="number" class="form-control"></td>
+									</tr>
+									<tr>
+										<th>Умереный</th>
+										<td><input type="number" class="form-control"></td>
+										<td><input type="number" class="form-control"></td>
+									</tr>
+									<tr>
+										<th>Агрессивный</th>
+										<td><input type="number" class="form-control"></td>
+										<td><input type="number" class="form-control"></td>
+									</tr>
+									<tr>
+										<th>СверхАгрессивный</th>
+										<td><input type="number" class="form-control"></td>
+										<td><input type="number" class="form-control"></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>			
+					</div>
+					<div class="col-lg-6">
+						<canvas id="doughnutChart3" class="mt-5"></canvas>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="table-responsive mt-5">
+							<table class="table table-hover z-depth-1-half">
+								<thead class="blue-gradient">
+									<tr>
+										<th scope="col">Валюта</th>
+										<th scope="col">Доля</th>
+										<th scope="col">Сумма, USD</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th>Местная Валюта</th>
+										<td><input type="number" class="form-control"></td>
+										<td><input type="number" class="form-control"></td>
+									</tr>
+									<tr>
+										<th>EUR</th>
+										<td><input type="number" class="form-control"></td>
+										<td><input type="number" class="form-control"></td>
+									</tr>
+									<tr>
+										<th>USD</th>
+										<td><input type="number" class="form-control"></td>
+										<td><input type="number" class="form-control"></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<canvas id="doughnutChart2" class="mt-5"></canvas>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="table-responsive mt-5">
+							<table class="table table-hover z-depth-1-half">
+								<thead class="blue-gradient">
+									<tr>
+										<th scope="col">Страна</th>
+										<th scope="col">Доля</th>
+										<th scope="col">Сумма, USD</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th>Страна проживания</th>
+										<td><input type="number" class="form-control"></td>
+										<td><input type="number" class="form-control"></td>
+									</tr>
+									<tr>
+										<th>Зарубеж</th>
+										<td><input type="number" class="form-control"></td>
+										<td><input type="number" class="form-control"></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>	
+					<div class="col-lg-6">
+						<canvas id="doughnutChart1" class="mt-5"></canvas>
+					</div>
+				</div>
+			</div>
+			</div>
+    </main>
+
+
+<script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="../js/popper.min.js"></script>
+<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../js/mdb.min.js"></script>
+<script type="text/javascript" src="../js/script.js"></script>
+<script>
+	var ctxD = document.getElementById("doughnutChart").getContext('2d');
+	var myLineChart = new Chart(ctxD, {
+		type: 'doughnut',
+		data: {
+			labels: ["Alpha", "Betta", "Vertex", "Gloom", "Ricki"],
+			datasets: [
+			{
+				data: [300, 50, 100, 40, 120],
+				backgroundColor: ["#F7464A", "#46BFBD", "#FDB45C", "#949FB1", "#4D5360"],
+				hoverBackgroundColor: ["#FF5A5E", "#5AD3D1", "#FFC870", "#A8B3C5", "#616774"]
+			}
+			]
+		},
+		options: {
+			responsive: true
+		}
+	});
+</script>
+
+<script>
+	var ctxL = document.getElementById("lineChart").getContext('2d');
+	var myLineChart = new Chart(ctxL, {
+		type: 'line',
+		data: {
+			labels: ["5 лет", "10 лет", "15 лет"],
+			datasets: [{
+				label: "Рост дохода",
+				data: [65, 59, 80],
+				backgroundColor: [
+				'rgba(0, 137, 132, .2)',
+				],
+				borderColor: [
+				'rgba(0, 10, 130, .7)',
+				],
+				borderWidth: 2
+			},
+			]
+		},
+		options: {
+			responsive: true
+		}
+	});
+</script>
+
+<script>
+var ctxD = document.getElementById("doughnutChart1").getContext('2d');
+var myLineChart = new Chart(ctxD, {
+    type: 'doughnut',
+    data: {
+        labels: ["Blue", "Green", "Yellow", "Grey", "Dark Grey"],
+        datasets: [
+            {
+                data: [300, 50, 100, 40, 120],
+                backgroundColor: ["#25E9FE", "#46BFBD", "#FDB45C", "#949FB1", "#4D5360"],
+                hoverBackgroundColor: ["#37B2C0", "#5AD3D1", "#FFC870", "#A8B3C5", "#616774"]
+            }
+        ]
+    },
+    options: {
+        responsive: true
+    }
+});
+
+var ctxD = document.getElementById("doughnutChart2").getContext('2d');
+var myLineChart = new Chart(ctxD, {
+    type: 'doughnut',
+    data: {
+        labels: ["Blue", "Green", "Yellow", "Grey", "Dark Grey"],
+        datasets: [
+            {
+                data: [300, 50, 100, 40, 120],
+                backgroundColor: ["#25E9FE", "#46BFBD", "#FDB45C", "#949FB1", "#4D5360"],
+                hoverBackgroundColor: ["#37B2C0", "#5AD3D1", "#FFC870", "#A8B3C5", "#616774"]
+            }
+        ]
+    },
+    options: {
+        responsive: true
+    }
+});
+
+var ctxD = document.getElementById("doughnutChart3").getContext('2d');
+var myLineChart = new Chart(ctxD, {
+    type: 'doughnut',
+    data: {
+        labels: ["Blue", "Green", "Yellow", "Grey", "Dark Grey"],
+        datasets: [
+            {
+                data: [300, 50, 100, 40, 120],
+                backgroundColor: ["#25E9FE", "#46BFBD", "#FDB45C", "#949FB1", "#4D5360"],
+                hoverBackgroundColor: ["#37B2C0", "#5AD3D1", "#FFC870", "#A8B3C5", "#616774"]
+            }
+        ]
+    },
+    options: {
+        responsive: true
+    }
+});
+</script>
+</body>
+</html>
